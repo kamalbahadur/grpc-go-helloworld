@@ -1,3 +1,7 @@
+Protoc
+---
+protoc -I helloworld helloworld/*.proto --go_out=plugins=grpc:helloworld
+
 Docker Build
 ---
 docker build -t grpc-go-helloworld .
