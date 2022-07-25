@@ -3,7 +3,7 @@ package main
 import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	pb "grpc-go-helloworld/helloworld/grpc/helloworld"
+	pb "grpc-go-helloworld/proto/helloworld"
 	"log"
 	"time"
 )
